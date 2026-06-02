@@ -2,7 +2,7 @@
 
 Proyecto personal de práctica con HTML, CSS y Python.
 
-## Tecnologías usadas
+## Lenguajes usados
 - HTML5
 - CSS3
 - Python 3
