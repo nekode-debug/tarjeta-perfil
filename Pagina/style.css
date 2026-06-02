@@ -1,0 +1,134 @@
+/* Reset sencillo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px; /* base para 1rem */
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px; /* más pequeño en tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 12px; /* más pequeño en celulares */
+  }
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FF69B4; /* fondo rosa */
+    background-image: radial-gradient(circle, #FFFF00 8px, transparent 2px);
+  background-size: 53px 53px; /* qué tan separados están los puntos amarillos */
+}
+
+/* Barra superior */
+header {
+  background-color: #AAFF00; 
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 0px 0px 10px 0px;
+
+}
+
+header h1 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 3.5rem;
+  color: #C9AAFF;
+  font-weight: bold;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    text-align: left; 
+    color: #CC0066;
+    font-size: 1.2rem;
+}
+
+#título_habilidades, .habilidad {
+    font-family: 'Poppins', sans-serif;
+    text-align: left; 
+    color: #CC0066;
+    font-size: 1.2rem;
+}
+
+.tarjeta {
+  background-color: #C9AAFF;
+  width: 50%;
+  margin: 150px auto 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 10px solid white;
+}
+
+.contenedor-superior {
+    display: inline-block;
+    width: 100%;
+}
+
+.foto {
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+}
+
+.foto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.datos {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    padding-left: 20px;
+}
+
+.contenedor-habilidades {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.habilidad {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.nombre-habilidad {
+    width: 120px;
+}
+
+.barra {
+    width: 150px;
+    height: 20px;
+    background-color: #AAFF00;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+.progreso {
+    height: 100%;
+    background-color: #CC0066;
+    border-radius: 0px;
+}
+
+.columnas-habilidades {
+    display: flex;
+    gap: 20px;
+}
+
+.columna {
+    flex: 1;
+}
+
