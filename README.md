@@ -8,5 +8,4 @@ Proyecto personal de práctica con HTML, CSS y Python.
 - Python 3
 
 ## Descripción
-Tarjeta de perfil web con datos personales y barras de habilidades.
-El script de Python calcula y muestra el nivel de cada habilidad en consola.
+Tarjeta de presentación personal desarrollada con HTML y CSS. Incluye barras de habilidades cuyos porcentajes fueron calculados mediante un script auxiliar en Python para automatizar la generación de valores.
